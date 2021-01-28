@@ -18,6 +18,7 @@ requests:
       - "{{BaseURL}}"
     matchers-condition: or
 
+    matchers:
       - type: word
         name: aws-bucket
         words:
